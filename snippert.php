@@ -42,3 +42,5 @@ strtotime()
 git add --all
 git commit -m "my commit"
 git push -u origin master
+git push origin master
+git push origin --delete master
