@@ -47,11 +47,11 @@ Data Pasien
                                 <form action="{{ route('pasien.destroy', $patient->id) }}" method="POST">
                                     @csrf
                                     <input type="hidden" name="_method" value="DELETE">
-                                    <a href="{{ route('pasien.edit', $patient->id) }}" class="btn btn-warning btn-sm">
+                                    <a href="{{ route('pasien.edit', $patient->id) }}" class="btn btn-warning btn-sm my-0">
                                         <i class="fa fa-edit"></i>
                                     </a>
 
-                                    <button class="btn btn-danger btn-sm mt-1">
+                                    <button class="btn btn-danger btn-sm my-0">
                                         <i class="fa fa-trash"></i>
                                     </button>
                                 </form>
